@@ -1,5 +1,5 @@
 import express from "express";
-import { method } from "./methods";
+import { method } from "@/methods";
 
 const APP = express();
 APP.disable("x-powered-by"); // Elminamos en las respuestas la propiedad "x-powered-by" que indica que usamos express

@@ -1,6 +1,6 @@
 import express from "express";
 
-import { responseErrorHttp } from "./response-http";
+import { responseErrorHttp } from "@/modules/response-http";
 
 import {
   addMovie,

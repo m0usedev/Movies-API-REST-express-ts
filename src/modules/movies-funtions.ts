@@ -1,15 +1,15 @@
 import path from "path";
 import crypto from "node:crypto";
 
-import { FileJson } from "./file-json";
-import { zMovie } from "./zod-movies";
+import { FileJson } from "@/modules/file-json";
+import { zMovie } from "@/modules/zod-movies";
 
 import {
   Movie,
   MovieModify,
   MovieQuery,
   TypeValuesMovieQuery,
-} from "./interfaces";
+} from "@/modules/interfaces";
 import { MovieError } from "@/error/movies-error";
 
 const FJ = new FileJson(
